@@ -6,22 +6,20 @@ Hardcoding freedom into the systems of tomorrow.
 
 ## Purpose
 
-Marketing Systems Matrix maps how campaigns, creative routes, offers, and feedback loops become a repeatable operating system. It is built for structured growth rather than one-off content chaos.
+Marketing Systems Matrix routes campaign briefs into safe creative directions. It keeps public messaging structured, reviewable, and aligned with evidence instead of hype.
 
-## Current Component
+## What Changed
 
-```text
-Marketing Systems Matrix/
-└── ad_generation_router.py
+- Replaced vendor/API prompt language with a deterministic campaign router.
+- Added investor-material review routing.
+- Added tests for review, rejection, and low-risk product education paths.
+
+## Verify
+
+```bash
+python -m unittest discover -s tests -q
 ```
 
-## Scope
+## Public Safety
 
-- Campaign routing and creative direction rules.
-- Offer and audience segmentation logic.
-- Public-safe messaging architecture.
-- Measurement hooks for future analytics integration.
-
-## Production Direction
-
-The next step is to add campaign fixtures, routing tests, and brand-safe prompt boundaries. Private strategy and unreleased deterministic chains should stay out of public commits.
+Do not commit private campaign strategy, customer lists, unsupported claims, platform bypass tactics, or unreleased deterministic decision chains.
