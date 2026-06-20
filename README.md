@@ -13,6 +13,7 @@ Marketing Systems Matrix routes campaign briefs into safe creative directions. I
 - Replaced vendor/API prompt language with a deterministic campaign router.
 - Added investor-material review routing.
 - Added tests for review, rejection, and low-risk product education paths.
+- Added deterministic launch plans with headlines, sequence, proof assets, and blocked claims.
 
 ## Verify
 
